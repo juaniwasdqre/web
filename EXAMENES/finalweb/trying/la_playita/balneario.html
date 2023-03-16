@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BALNEARIO "La Playita"</title>
+</head>
+<body>
+    <div>
+        <h1>COCHERAS BALNEARIO "LA PLAYITA"</h1>
+        <h2>B°FALUCHO II - TANDIL "LUGAR SOÑADO"</h2>
+        <form>
+            <div class="registro">
+                <h2>REGISTRE SU AUTO</h2>
+                <label for="auto"></label>
+                <input id="patente" type="text" placeholder="PATENTE">
+                <input id="carpa" type="number" placeholder="CARPA">
+                <label for="consultar">CONSULTAR DISPONIBILIDAD</label>
+                <button id="consulta" type="button">CONSULTAR</button>
+            </div>
+        </form>
+        <form>
+            <div class="encontrar">
+                <h2>RECUERDAME LA COCHERA</h2>
+                <input id="patente2" type="text" placeholder="PATENTE">
+                <label for="consultar">me olvide soy un boludo</label>
+                <button id="donde" type="button">DONDE MIERDA</button>
+            </div>
+        </form>
+        <div class="unavailable" id="tablausuario">
+            <p>SU COCHERA ES <span id="cochera">COCHERA</span></p>
+            <table>
+                <thead>
+                    <tr>
+                        <td>PATENTE</td>
+                        <td>CARPA</td>
+                        <td>COCHERA</td>
+                    </tr>
+                </thead>
+                <tbody id="userdata">
+                </tbody>
+            </table>
+        </div>
+        <div class="unavailable" id="unav">
+            <h2>LAMENTAMOS INFORMARLE QUE EL ESTACIONAMIENTO ESTA POR EL MOMENTO COMPLETO, INTENTE NUEVAMENTE MAS TARDE</h2>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

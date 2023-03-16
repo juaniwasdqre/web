@@ -1,0 +1,37 @@
+La segunda entrega de la materia consiste en
+1.  El sitio web actualizado con las nuevas tecnologías y técnicas vistas.
+2.  Screenshot del sitio web.
+
+Archivo comprimido con nombre según número (Columna “N° Trab”) de grupo y nombres (“009 - Jose Perez y Juan García”) y subirlo a la tarea de entrega de MOODLE. 
+
+Para la segunda entrega se solicita:
+Utilizar HTML semántica.
+El sitio debe ser Responsive. Que el sitio web sea “responsive” diseñado e implementado como “mobile first” es requisito indispensable. 
+Como mínimo se debe soportar celular y escritorio.
+El menú debe ser responsive. En la vista de celular debe estar oculto y poder desplegarse o similar.
+
+NOTA: La página no requiere conservar el mismo diseño que su versión de la primera entrega. 
+
+Tabla dinámica
+VALUE DE LOS INPUTS
+La tabla del sitio con su información debe ser cargada de forma dinámica por el usuario mediante un formulario para completar todas las columnas. Suponer que la página del sitio de la tabla la puede ver solamente el administrador del sitio.
+Los datos de la tabla (filas) se deben almacenar en un arreglo con objetos (JSON).
+La tabla se debe mantener actualizada a medida que el usuario carga información. Al entrar por el nav a la página que tiene la tabla, automáticamente debe mostrarse la tabla con datos precargados en el arreglo sin que el usuario tenga que hacer ningún click adicional.
+Debe haber un botón que permita crear varios ítems automáticamente (al menos 3 items)
+Permitir borrar todos los elementos de la tabla con un solo botón (vaciar la tabla)
+
+Nota: Es posible que en algunos casos para que tenga sentido la carga del contenido de la tabla dinámica se deba modificar la información o columnas de la tabla existente o usar una nueva.
+
+Limitar tamaño de imágenes y peso del sitio. La carpeta completa del sitio no puede superar los 5 Mb.
+El trabajo debe funcionar correctamente en un servidor Apache, se puede usar XAMPP u otro servidor local. 
+
+Opcionales:
+Filas resaltadas (+1): Aplicar estilos a filas en base a algún dato de la tabla (lo eligen ustedes según su contexto, ejemplo: resaltar ofertas con descuento mayor a 15%)
+
+Aclaración Tabla:
+Todas las operaciones de modificación (agregado, borrado, etc) deben mantener sincronizado correctamente el arreglo de objetos subyacente en Javascript.
+Tabla: La tabla de la página debe estar vacía en el HTML. En caso de haber datos iniciales, estos datos deben ser parte del arreglo inicial.
+Botón x3: Debe haber alguna forma de agregar 3 elementos de forma rápida (algo como hacer un click en un botón sin tener que completar el formulario 3 veces). Dichos datos pueden ser generados al azar, ser fijos, leerse o como se prefiera.
+Debe haber un formulario para agregar elementos de a uno con datos introducidos por el usuario. 
+
+Los requerimientos deben ser los definidos en la planilla de trabajos y estar en el lugar indicado. La estructura HTML, CSS y JS si lo hubiera debe ser de acuerdo a las diferentes pautas explicadas. En caso de errores graves se puede desaprobar el trabajo (lo que implica la pérdida de cursada). 

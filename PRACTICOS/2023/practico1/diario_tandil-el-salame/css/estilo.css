@@ -1,0 +1,226 @@
+header {
+    padding-bottom: 30px;
+    border-bottom-style:dashed;
+    border-bottom-color: #0b4936;
+    margin-bottom: 0;
+}
+
+h1 {
+    color: #0b4936;
+    font-size: 70px;
+    text-align: center;
+    margin-block-end: 0.14em;
+    margin-block-start: 0;
+}
+
+h2 {
+    color:#234163;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 {
+    color:#2B600E;
+    font-weight: bolder;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h4{
+    text-align:right;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span > a {
+    display: inline;
+    text-decoration: underline;
+    color: inherit;
+}
+span > a:hover {
+    background-color: salmon;
+}
+
+.noticia {
+    background-size: 92px 130px;
+}
+
+.subtitulo {
+    color:#702700;
+    font-size: 25px;
+    text-align: center;
+    margin-block-start: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-noticia {
+    font-size: 30px;
+}
+
+.cita {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.nostyle {
+    display: block;
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.botonera {
+    display: flex;
+    list-style: none;
+    padding-left: 0%;
+    margin: 0;
+    color:#14273d;
+}
+
+.nav {
+    margin: 10px 10px;
+    padding: 10px;
+    
+}
+
+.nav:hover {
+    background-color: salmon;
+}
+
+#logo {
+    height: auto;
+    width: 7%;
+}
+
+ul {
+    color:#224610;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    list-style-type: disc;
+}
+
+img{
+    margin: auto;
+    display: block;
+}
+
+body {
+    background-color: #ffcea0;
+}
+
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.noticias {
+    width: 80%;
+}
+
+.ads {
+    border-left: 3px dashed #0b4936;
+    padding: 0.7%;
+    width: 15%;
+    background-color: #fffdec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.adimg {
+    margin: 0;
+    width: 100%;
+}
+
+footer {
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    background-color: #79C189;
+    border: 3px solid black;
+    padding: 6px;
+    position: sticky;
+    bottom: 4px;
+}
+
+.signature {
+    height: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.socials {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: end;
+    height: 2em;
+}
+
+.socials > div {
+    display: flex;
+    flex-wrap: wrap;
+    height: 1.4em;
+    margin-bottom: 3px;
+}
+a {
+    display: flex;
+    flex-wrap: wrap;
+    height: inherit;
+}
+a > img {
+    display: flex;
+    flex-wrap: wrap;
+    height: inherit;
+}
+
+.noticias.singlenew {
+    display: flex;
+    justify-content: center;
+}
+.focusnew {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.bestnews {
+    position: absolute;
+    bottom: 65px;
+    right: 40%;
+    background-color: grey;
+    display: none;
+}
+
+.diario:hover {
+    background-color: #3a6e45;
+    cursor:pointer;
+}
+.diario:hover .bestnews {
+    display: block;
+}
+
+table, td, tr, thead {
+    border-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+    padding: 4px;
+    background-color: whitesmoke;
+}
+
+tr, td, th {
+    padding: 10px;
+}
+
+.tabla {
+    width: 83.2%;
+}

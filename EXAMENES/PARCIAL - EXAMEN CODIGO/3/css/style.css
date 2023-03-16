@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario {
+    margin: 50px;
+    width: 400px;
+    background-color: #bbbbbba2;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+input[type=text], input[type=date], input[type=email] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgba(97, 71, 15, 0.849);
+    border-radius: 4px;
+    outline: none;
+}
+input[type=text]:focus {
+    border: 3px solid #FFBB37;
+  }
+
+.balance-list{
+    display: none;
+}
+.show{
+    display: block;
+}
+.perdida {
+    color: red
+}
+.ganancia {
+    color: green;
+}

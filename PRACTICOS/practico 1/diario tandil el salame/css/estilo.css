@@ -1,0 +1,105 @@
+header {
+    padding-bottom: 30px;
+    border-bottom-style:dashed;
+    border-bottom-color: #0b4936;
+    margin-bottom: 0;
+}
+
+h1 {
+    color: #0b4936;
+    font-size: 70px;
+    text-align: center;
+    margin-block-end: 0.14em;
+    margin-block-start: 0;
+}
+
+h2 {
+    color:#234163;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 {
+    color:#2B600E;
+    font-weight: bolder;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h4{
+    text-align:right;
+}
+
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.noticia {
+    background-size: 92px 130px;
+}
+
+.subtitulo {
+    color:#702700;
+    font-size: 25px;
+    text-align: center;
+    margin-block-start: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-noticia {
+    font-size: 30px;
+}
+
+.cita {
+    font-style: italic;
+}
+
+.nostyle {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.botonera {
+    display: flex;
+    list-style: none;
+    padding-left: 0%;
+    margin: 0;
+    color:#14273d;
+}
+
+.nav {
+    margin: 10px 10px;
+    padding: 10px;
+    
+}
+
+.nav:hover {
+    background-color: salmon;
+}
+
+#logo {
+    height: auto;
+    width: 7%;
+}
+
+ul {
+    color:#224610;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    list-style-type: disc;
+}
+
+img{
+    margin: auto;
+    display: block;
+}
+
+body {
+    /* background-image: url(img/republicatandil.png); */
+    background-size: 138px 195px;
+    background-repeat: no-repeat;
+    background-position:top;
+    background-color: #ffcea0;
+}

@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-VariableFont_wght.ttf") format("opentype");
+    }
+
+.header {
+    background-color: rgb(198, 235, 232);
+    display: flex;
+    padding: 2.5%;
+    justify-content: space-between;
+    font-size: 24px;
+    align-items: baseline;
+}
+.content {
+    margin: 20px 0;
+    padding: 2%;
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-around;
+}
+
+.izquierda {
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+    font-size: large;
+}
+
+.derecha {
+    background-color: lightcoral;
+    margin: 20px;
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+    font-size: large;
+}
+
+.footer {
+    background-color: rgb(228, 215, 180);
+    padding: 2.5%;
+    font-size: 24px;
+    font-family: 'Fira Mono';
+}
+
+.logo {
+    font-size: 30px;
+    font-family: "Raleway";
+    font-weight: bold;
+    padding: 0;
+}
+
+li {
+    background-color: rgb(255, 165, 138);
+    margin: 0 10px;
+    padding: 10px;
+}
+li:hover {
+    background-color: salmon;
+}
+
+.botonera {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}

@@ -1,0 +1,49 @@
+.container {
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.izquierda {
+    background-color: aquamarine;
+    margin: 20px;
+    width: 500px;
+}
+
+.derecha {
+    background-color: lightcoral;
+    margin: 20px;
+    width: 200px;
+}
+
+.centro {
+    background-color: lightgoldenrodyellow;
+    margin: 20px 0;
+    width: 33%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    background-color: teal;
+}
+
+li {
+    background-color: rgb(255, 165, 138);
+    margin: 0 10px;
+    padding: 10px;
+}
+li:hover {
+    background-color: salmon;
+}
+
+.botonera {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}

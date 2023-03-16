@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-VariableFont_wght.ttf") format("opentype");
+    }
+body{
+    background-color: black;
+    margin: 0;
+    color: FFD500
+}
+.header {
+    color: aliceblue;
+    background-color: black;
+    display: flex;
+    padding: 2.5%;
+    justify-content: space-between;
+    font-size: 24px;
+    align-items: baseline;
+}
+.content {
+    margin: 20px 0;
+    padding: 2%;
+    background-color: #f56e02;
+    display: flex;
+    justify-content: space-around;
+}
+
+.izquierda {
+    background-color: #44B1AC;
+    margin: 5px;
+    padding: 15px;
+    width: 700px;
+    height: 700px;
+    font-size: large;
+}
+
+.derecha {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffae83;
+    margin: 20px;
+    padding: 15px;
+    width: 500px;
+    height: 500px;
+    font-size: large;
+}
+
+.footer {
+    background-color: rgb(228, 215, 180);
+    padding: 2.5%;
+    font-size: 24px;
+    font-family: 'Fira Mono';
+}
+
+.logo {
+    font-size: 30px;
+    font-family: "Raleway";
+    font-weight: bold;
+    padding: 0;
+}
+
+.top {
+    font-size: 20px;
+    color: whitesmoke;
+    height: 280px;
+    width: 100px;
+    background-color: black;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-family: "Raleway";
+    font-weight: bold;
+    color: black;
+}
+.nostyle {
+    text-decoration: inherit;
+    color: inherit;
+}
+.button {
+    background-color: #FFBB37;
+    margin: 0 10px;
+    padding: 10px;
+}
+.button:hover {
+    background-color: #fddf5b;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deja tu firma!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" sizes="32x32" type="image/x-icon">
+</head>
+<body class="not-index">
+    <header>
+        <div class="logo"><a class="nostyle" href="index.html"><img class="logo-img" src="images/logo.png" alt="logo"></a>
+        </div>
+        <nav>
+            <button id="togglernav" class="btn toggler">Menu</button>
+            
+            <ul id="navbar" class="nav">
+                <li class="navitem"><a class="nostyle" href="index.html">Home</a></li>
+                <li class="navitem"><a class="nostyle" href="main-article.html">News</a></li>
+                <li class="navitem"><a class="nostyle" href="reviews.html">Reviews</a></li>
+                <li class="navitem"><a class="nostyle" href="register.html">Join us</a></li>
+                <li class="navitem"><a class="nostyle" href="firma.html">Leave your mark</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="formulario" id="user-sign">
+            <label for="genero">Genero Favorito</label>
+            <input id="genero" type="text" name="nombre" value="" placeholder=""/>
+            <label for="username">Nombre de usuario</label>
+            <input id="usernames" type="text" name="nombre" value="" placeholder=""/>
+            <label for="nation">Nacionalidad</label>
+            <input id="nation" type="text" name="nation" value=""/>
+            <button class="btn" id="send-sign">Send!</button>
+        </div>
+        <div class="tabla">
+              <table id="table-edit" class="user-signatures">
+                <thead id="">
+                    <tr>
+                        <td>Favourite Genre</td>
+                        <td>Username</td>
+                        <td>Nation</td>
+                        <td id="tfilter"></td>
+                    </tr>
+                </thead>
+                <tbody id="printTable">
+                </tbody>
+              </table>
+        </div>
+    </div>
+    <footer>
+        <i class="fab fa-spotify"></i>
+        <i class="fab fa-apple"></i>
+        <i class="fab fa-youtube"></i>
+    </footer>
+    <script src="https://kit.fontawesome.com/dbe4863bc4.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/tablerest.js" ></script>
+</body>
+</html>

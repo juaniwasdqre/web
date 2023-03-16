@@ -1,0 +1,20 @@
+Estos términos se refieren a las prácticas de posicionamiento dependiendo de si son buenas (white) o no (black).  
+La gran diferencia es que mientras que las prácticas denominadas “Black Hat SEO” no tienen como interés mejorar el posicionamiento web de una página, el White Hat SEO (o prácticas white hat) presta atención a otros aspectos como a la integridad del sitio web y a la experiencia del usuario.
+Además, con el Black Hat SEO recurres a acciones poco éticas y que te pueden provocar problemas en caso de que el buscador detecte que las has efectuado, en cambio con el White Hat SEO este riesgo no existe, dado que siempre actúas según las instrucciones, digamos, del buscador.
+Asimismo, aunque el Black Hat SEO puede ofrecer resultados a corto plazo también puede ocasionar que desaparezcas de la lista de resultados, por lo que el White Hat SEO es mucho más rentable a largo plazo.
+
+
+
+BLACK HAT PRACTICAS
+Por lo que respecta a las técnicas más utilizadas dentro del Black Hat SEO destacan:
+
+Links y textos ocultos – Esta acción era sumamente común hace unos años y se basaba en agregar texto repleto de palabras claves del mismo color que el fondo de la web, de forma que que el usuario no podía verlo pero sí los motores de búsqueda. Ahora ya casi no se usa.
+
+Keywords Stuffing – Consiste en el exceso de palabras clave, las cuales se encuentran en todos y cada uno de los elementos de una página web, como el title, body, H1, H2, anchor text, URL, metatags etc…
+keyword-stuffing
+
+Cloacking – En esta acción se muestra un contenido para los buscadores y otro totalmente diferente para los usuarios. Por ejemplo, a los usuarios se les dirige a una página que no sea rastreada por los buscadores, como una página flash, mientras que los robots de búsqueda permanecen en una página optimizada especialmente para ellos.
+
+Copiar contenido – Tal y como su propio nombre indica, se trata de copiar y pegar contenido de otras web a nuestra página.
+
+Page hijacking – El page hijacking efectúa una copia de una página web bien posicionada para lograr hacer creer al buscador que la copia realizada es la original y no al revés, de manera que consigues aumentar tu posicionamiento web aunque fraudulentamente y perjudicando a un tercero.

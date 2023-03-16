@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>NEW Calculator2403</title>
+</head>
+<body>
+    <div>
+        <h1>Calculadora</h1>
+        <form>
+            <div class="alquiler">
+                <label for="articulo">Producto</label>
+                <select name="articulo" id="articulo">
+                    <option value="pizza">Pizza</option>
+                    <option value="empanadas">Empanadas</option>
+                    <option value="promo">Promo Pizza + Docena de Empanadas</option>
+                </select>
+                <label for="cantidad">Cantidad</label>
+                <input id="cantidad" name="cantidad" type="number">
+                <button id="calcular" type="button">Calcular</button>
+            </div>
+        </form>
+        <p>El precio seria: <span id="precio">PRECIO SIN DESCUENTO</span></p>
+        <p>A lo que le debe restar un descuento de: <span id="descuento">DESCUENTO</span></p>
+        <p>Su pedido es: <span id="total">PEDIDO</span></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

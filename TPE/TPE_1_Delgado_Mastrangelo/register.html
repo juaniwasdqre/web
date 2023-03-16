@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join us!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" sizes="32x32" type="image/x-icon">
+</head>
+<body class="not-index">
+    <div class=header>
+        <div class="logo"><a class="nostyle" href="index.html"><img class="logo-img" src="images/logo.png" alt="logo"></a>
+        </div>
+        <div>
+            <ul class="nav">
+                <li class="button"><a class="nostyle" href="index.html">Home</a></li>
+                <li class="button"><a class="nostyle" href="main-article.html">News</a></li>
+                <li class="button"><a class="nostyle" href="reviews.html">Reviews</a></li>
+                <li class="button"><a class="nostyle" href="register.html">Join us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="formulario">
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" value="" placeholder="su nombre..."/>
+    
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" value="" placeholder="su apellido..."/>
+
+                <label for="bday">Fecha de Nacimiento:</label>
+                <input type="date" name="bday" value=""/>
+
+                <label for="email">E-Mail:</label>
+                <input type="email" name="email" value="" placeholder="example@abcmail.com..."/>
+
+                <label for="sexo">Sexo: </label>
+                <label for="hombre">Hombre</label>
+                <input type="radio" name="sexo" value="Hombre"/>
+                <label for="mujer">Mujer</label>
+                <input type="radio" name="sexo" value="Mujer"/>
+                <label for="none">Otro</label>
+                <input type="radio" name="sexo" value="none"/>
+            </form>
+            <div class="captcha">
+                <button class="btn" id="captchabtn">Are you a robot?</button>
+                <div id="captcha" class="captchacerrado">
+                    <form action="">
+                        <input class="btn" id="captchanumber" type="button" value="Generate captcha">
+                        <div id="captchadiv" class="captchadiv"></div>
+                        <input id="entercaptcha" type="text" value="" placeholder="Enter captcha">                    
+                        <div class="" id="captcharesult"></div>
+                        <div class="rightdiv">
+                            <input id="sendcaptcha" class="btn"  type="button" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+                <div class="centereddiv">
+                    <button class=btn>Submit!</button>
+                </div>
+                    
+        </div>
+    </div>
+    <div class="footer">
+        <i class="fab fa-spotify"></i>
+        <i class="fab fa-apple"></i>
+        <i class="fab fa-youtube"></i>
+    </div>
+    <script src="https://kit.fontawesome.com/dbe4863bc4.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

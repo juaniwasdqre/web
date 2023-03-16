@@ -1,0 +1,54 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+header, article, aside, section, footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    border: black solid 2px;
+    justify-content: center;
+    flex-direction: column;
+}
+header {
+    border-bottom: none;
+}
+aside {
+    border: none;
+}
+section, footer{
+    border-top: none;
+}
+header, article, section, footer {
+height: 5em;
+}
+
+#desktop-only{
+    display: none;
+}
+
+@media screen and (min-width:661px) {
+    div {
+        width: 100%;
+        flex-direction: row;
+    }
+    aside {
+        border: black solid 0px;
+        flex-direction: column;
+    }
+    section, aside{
+        border-left: none;
+    }
+    article{
+        height: 10em;
+    }
+    #desktop-only{
+        border-top: black solid 2px;
+        display: block;
+    }
+    div, #desktop-only{
+        display: flex;
+    }
+}

@@ -1,0 +1,18 @@
+nav {
+    background-color:blue;
+}
+nav:hover {
+    background-color: yellow;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+section{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+footer {
+    margin-top: 5px;
+    border-top: red solid 10px;
+}
