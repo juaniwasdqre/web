@@ -30,8 +30,55 @@ function Piramide(numerito) {
             console.log(rta);
         }
     } else {
-        console.log("inserte un numero valido entre 0 y 10")
+        console.log("inserte un numero valido entre 0 y 10");
     }
 }
 
 Piramide(10);
+
+// 12. Generar una función donde ingresen dos números, el primero corresponde a la
+// cantidad de bultos en stock y el segundo a la cantidad de bultos que se pueden
+// colocar en una caja. Calcule cuántas cajas completas se pueden llenar con los bultos
+// disponibles y cuantos bultos sueltos quedarían. Mostrar ambos resultados en consola.
+
+function Bultos(stock, enCaja) {
+    let cajaFull = ~~(stock / enCaja);
+    let bultoSuelto = (stock % enCaja);
+
+    console.log("Podrian llenarse "+cajaFull+" caja(s) con los bultos que tenes en stock");
+    console.log("Te quedaron "+bultoSuelto+" bulto(s) sueltos");
+}
+
+Bultos(8, 3);
+
+// 13. Se pide realizar un script para una tienda de coches: Si el coche a la venta es un Ford
+// Fiesta (código "fiesta"), el descuento es de un 5%. Si el coche a la venta es un Ford
+// Focus (código "focus"), el descuento es del 10%. El usuario introduce el artículo a
+// través de su código y el script saca el descuento correspondiente por la consola.
+
+function Descuento(code) {
+    switch(code) {
+        case "fiesta":
+            console.log("tu descuento es del 5%!!");
+            break;
+        case "focus":
+            console.log("tu descuento es del 10%!!!");
+            break;
+        default:
+            console.log("mm no tenemos un descuento para ese codigo :( \n segui participando wachinn");
+    }
+}
+
+Descuento("toyota");
+
+function Descuento(codigo) {
+    if(codigo=="fiesta") {
+        console.log("5%");
+    } else if(codigo=="focus") {
+        console.log("10%");
+    } else {
+        console.log(null);
+    }
+}
+
+Descuento("fiesta");
